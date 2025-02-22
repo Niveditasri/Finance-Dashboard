@@ -1,0 +1,11 @@
+{
+    "projects": [{
+            "name": "finance-dashboard-client",
+            "rootDirectory": "client"
+        },
+        {
+            "name": "finance-dashboard-server",
+            "rootDirectory": "server"
+        }
+    ]
+}
