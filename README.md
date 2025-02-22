@@ -1,7 +1,98 @@
-# Finance Dashboard App
+# 📊 Finance Dashboard  
 
-Build A MERN Finance Dashboard App
+## 🚀 Overview  
+Finance Dashboard is a **full-stack web application** designed to help users manage their expenses efficiently. It provides insights into financial data through interactive visualizations, real-time tracking, and budget management features.  
 
-Video: https://www.youtube.com/watch?v=uoJ0Tv-BFcQ
+## 📂 Project Structure  
+```
+Finance-Dashboard/
+│── client/              # Frontend (React.js)
+│── server/              # Backend (Node.js, Express)
+│── database/            # MongoDB Integration
+│── Dockerfile           # Docker containerization
+│── vercel.json          # Vercel deployment configuration
+│── README.md            # Documentation
+└── package.json         # Dependencies and scripts
+```
 
-For all related questions and discussions about this project, check out the discord: https://discord.gg/2FfPeEk2mX
+## 🛠️ Technologies Used  
+### **Frontend:**  
+- React.js  
+- Tailwind CSS  
+- Axios  
+- Chart.js  
+
+### **Backend:**  
+- Node.js  
+- Express.js  
+- MongoDB (Atlas)  
+- Mongoose  
+- JWT Authentication  
+- Bcrypt  
+
+### **DevOps & Deployment:**  
+- **Vercel** for frontend and backend deployment  
+- **GitHub Actions** for CI/CD  
+- **Docker & Kubernetes** for containerization  
+- **Postman** for API testing  
+
+## 🔥 Features  
+✅ **User Authentication:** Secure login & registration with JWT  
+✅ **Expense Tracking:** Categorized expense tracking with real-time updates  
+✅ **Data Visualization:** Interactive charts for financial insights  
+✅ **Budget Management:** Set monthly budgets & track spending  
+✅ **Secure Transactions:** Encrypted data storage & security measures  
+✅ **Cloud Storage:** Sync data across devices  
+
+## 📜 Installation Guide  
+### **Prerequisites:**  
+- Node.js & npm installed  
+- MongoDB Atlas setup  
+
+### **1️⃣ Clone the Repository**  
+```bash
+git clone https://github.com/Niveditasri/Finance-Dashboard.git
+cd Finance-Dashboard
+```
+
+### **2️⃣ Backend Setup**  
+```bash
+cd server
+npm install
+```
+#### **Environment Variables**  
+Create a `.env` file in the `server` directory and add:  
+```
+MONGO_URL=your_mongodb_url
+JWT_SECRET=your_secret_key
+```
+Run the backend:  
+```bash
+npm start
+```
+
+### **3️⃣ Frontend Setup**  
+```bash
+cd ../client
+npm install
+npm start
+```
+
+### **4️⃣ Deployment**  
+To deploy on **Vercel**, run:  
+```bash
+vercel deploy
+```
+
+## 🎯 Future Enhancements  
+🔹 AI-based expense prediction  
+🔹 Multi-user collaboration  
+🔹 Mobile App version  
+
+## 📌 Contribution  
+Contributions are welcome! Feel free to fork the repo and submit pull requests.  
+
+## 📞 Contact  
+For queries, feel free to reach out:  
+📧 **Email:** [niveditasrivastava0720@gmail.com]  
+🔗 **LinkedIn:** [linkedin.com/in/niveditasrivastava](https://www.linkedin.com/in/niveditasri/)
