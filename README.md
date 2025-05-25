@@ -3,6 +3,8 @@
 ## 🚀 Overview  
 Finance Dashboard is a **full-stack web application** designed to help users manage their expenses efficiently. It provides insights into financial data through interactive visualizations, real-time tracking, and budget management features.  
 
+ ![picture](https://github.com/user-attachments/assets/d6a7e00b-5ab5-4f11-a14c-a2c58a4e5b7a)
+
 ## 📂 Project Structure  
 ```
 Finance-Dashboard/
